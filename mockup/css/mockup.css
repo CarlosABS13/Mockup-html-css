@@ -1,0 +1,93 @@
+body {
+    background-image: url(../images/body.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: gecko;
+    src: url(../fonts/comic_gecko/Comic\ Gecko\ Pro.otf);
+}
+
+@font-face {
+    font-family: sketcomic;
+    src: url(../fonts/sketcomic/Sketcomic.ttf);
+}
+
+@font-face {
+    font-family: badcomic;
+    src: url(../fonts/bad_comic/BadComic-Regular.ttf);
+}
+
+a:hover {
+    border-bottom: solid 3px black;
+    background-color: rgb(116, 116, 32);
+    transition: 0.5s;
+}
+
+a:active {
+    color: rgb(22, 106, 148);
+    border-bottom: solid 3px whitesmoke;
+    transition: none;
+}
+
+a {
+    font-family: sketcomic;
+    margin: 3px;
+    background: rgb(99, 27, 27);
+    text-decoration: none;
+    height: 25px;
+    width: 70px;
+    color: black;
+}
+
+.header {
+    background-color: #41006a94;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25pt;
+    gap: 2.5rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: gecko;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem auto;
+}
+
+p {
+    font-family: badcomic;
+    font-size: 15pt;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo1 {
+    font-family: gecko;
+    font-size: 20pt;
+    text-align: left;
+    text-decoration: none;
+}
+
+.titulo2 {
+    font-family: gecko;
+    font-size: 20pt;
+    text-align: left;
+    text-decoration: none;
+}
+
+.body2{
+    display: flex;
+    align-content: center;
+    margin: 2rem 4rem;
+    gap: 5rem;
+}
